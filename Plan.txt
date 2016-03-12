@@ -1,0 +1,27 @@
+Actualizar todos los amigos del usuario al momento de ingresar
+
+1) Generar un "estado pasado" (liga, kda, kda por campeon) y un "estado actual" para luego comprararlos
+y generar noticias de cambios significativos entre estados
+
+
+****ToDO***
+
+) Hacer que al meter user name no se case sensitive?
+
+) Revisar tipo de valores en tablas
+
+) Cambiar el matchId de   requestsEngine.requestMatchData
+
+) Como guardar los datos de la partida (primeros 11 elementos de matchData (season, matchVersion,...))?
+
+) Checar por que no me deja nombrar tableMatch con el puro str(matchData['matchId'])
+
+) Se meten los datos del match en el mismo orden. Ver la forma de menter los datos conforme al participantId 1 > 1, 2 > 2, etc. No por orden!!
+
+^^^ teamID
+
+) Tener la info de la liga del summoner en la match table?? como sacarla?? Se actualiza el summ antes de generar la tabla?
+
+) Generar maestria Keystone (averiguar como sacarla)
+
+champPlayed = " + champion + ",
